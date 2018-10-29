@@ -1,0 +1,21 @@
+ID,Family,Genus,Species,CommonName,Type,Complexity,Use,Characteristics
+0000,Sapindaceae,Acer,A. saccharum,Sugar Maple,Tree,Hard,Consumption/ Decor,Sap Produces Maple Syrup
+0001,Rosaceae,Malus,M. pumila,Apple Tree,Tree,Medium,Consumption,Produces Fruit
+0002,Ericaceae,Vaccinium,V. formosum,Southern Blueberry,Shrub,Easy,Consumption,Produces Fruit
+0003,Asteraceae,Helianthus,H. debilis,Sun Flower,Flower,Easy,Consumption/Decor,Large Flower with seeds in middle
+0004,Solanaceae,Solanum,S. lycopersicum,Cherry Tomatoes,Shrub,Easy,Consumption,
+0005,Cucurbitaceae,Cucurbita,C. moschata,Butter Squash,Vine,Easy,Consumption/Decor,
+0006,Cucurbitaceae,Cucurbita,C. pepo,Zucchini,Vine,Easy,Consumption,
+0007,Musaceae,Musa,M. acuminata,Banana,Tree,Medium,Consumption,
+0008,Rosaceae,Fragaria,F. ananassa,Strawberry,Shrub,Easy,Consumption,
+0009,Rosaceae,Cydonia,C. oblonga,Quince,Tree,Medium,Consumption,
+0010,Magnoliacea,Magnolia,M. grandiflora,Magnolia Tree,Tree,Medium,Decor,
+0011,Ranunculaceae,Ranunculus,R. bulbosus,Buttercup,Flower,Easy,Decor,
+0012,Brassicaeceae,Cardamine,C. dissecta,Toothwort ,Flower,Easy,Weed,
+0013,Orchidaceae,Platanthera,P. nivea,Orchid,Flower,Easy,Decor,
+0014,Apiaceae,Daucus,D. carota,Carrot,Root,Easy,Consumption,
+0015,Solanaceae,Solanum,S. tuberosum,Potato,Root,Easy,Consumption,
+0016,Anacardiaceae,Toxicodendron,T. radicans,Posion Ivy,Vine,Easy,Weed,
+0017,Anacardiaceae,Toxicodendron,T. diversilobum,Posion Oak,Vine,Easy,Weed,
+0018,Aquifoliaceae,Ilex,I. aquifolium,Holly,Tree,Hard,Decor,
+0019,Fabaceae,Wisteria,W. frutescens,Wisteria,Vine,Easy,Decor,
