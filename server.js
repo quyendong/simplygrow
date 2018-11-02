@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
     if (err) throw err
       console.log('You are now connected...')
  });
- 
+
 // Initialize the app
 const app = express();
 
@@ -25,6 +25,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(flash());
 app.use(cors());
+
+
+app.get('/mainplantdb', function (req, res) {
+    connection.query('SELECT * FROM mainplantdatabase', function (error, results, fields) {
+      if (error) throw error;
+      res.send(results)
+    });
+});
 
 // Start the server
 app.listen(4000, () => {
