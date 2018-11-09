@@ -27,7 +27,7 @@ app.use(flash());
 app.use(cors());
 
 
-app.get('/mainplantdb', function (req, res) {
+app.get('/PlantList', function (req, res) {
     connection.query('SELECT * FROM mainplantdatabase', function (error, results, fields) {
       if (error) throw error;
       res.send(results)

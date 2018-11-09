@@ -2,33 +2,3 @@
   background-color: #005F55;
   color: white;
 }
-
-.Jumbotron {
-  background-image: url("./Banner.jpg");
-  background-position: center;
-  background-size: 100% 100%;
-}
-
-/*
-  Note To Self:
-    'Couple different things can be done with the Jumbotron styling.  Currently, I have it set to manually be a size of 100% 100% as that was the best resolution for the banner's background-image on my machine.  The Banner can be change to have the original Banner.jpg as centered and set the repeat to no-repeat. From there set the background-color to #0B151D; for a different but still somehow sort of pleasing aesthetic to the jumbotron.
-
-    Edits:
-    .Jumbotron {
-      background-image: url("./Banner.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-*/
-
-.Body {
-  text-align: center;
-}
-
-.Body h4 {
-  text-align: left;
-}
-
-.Search-Form input {
-  width: 35%;
-}

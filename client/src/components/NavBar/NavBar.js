@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Image, Nav, NavItem } from 'react-bootstrap';
-import './NavBar.css'
+import { Image, Nav, NavItem, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 class NavBar extends Component {
   constructor(props) {
@@ -11,14 +12,18 @@ class NavBar extends Component {
   render() {
     return(
       <div>
+      <Navbar default collapseOnSelect>
+      <Navbar.Collapse>
         <Nav className="Nav" bsStyle="tabs" >
-          <NavItem className="NavItem" href="/">
-            <Image src="./favicon-16x16.png"/>
-          </NavItem>
-          <NavItem className="NavItem" href="/PlantSearch">
+        <NavItem eventKey = {1} componentClass={Link} href="/" to="/">
+          <Image src="./favicon-16x16.png"/>
+        </NavItem>
+          <NavItem eventKey = {2} componentClass={Link} href="/PlantList" to="/PlantList">
             Plant List
           </NavItem>
         </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       </div>
     );
   }
